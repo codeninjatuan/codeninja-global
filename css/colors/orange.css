@@ -1,0 +1,136 @@
+/*------------------------------------------------------------------
+
+Theme:                   Bowline HTML5 Template
+Version:                 1.1
+Author:                  SinkLab
+Support:                 http://themeforest.net/user/SinkLab
+
+File Description:        CSS Color Schemes
+
+---------------------------------------------------------------------
+
+[ Table of contents ]
+
+1. Elements with Color
+2. Elements with Background Color
+3. Elements with Border Color
+4. Buttons
+
+-------------------------------------------------------------------*/
+
+/* COLOR */
+a:hover,
+header.smaller .main-menu > ul > li > a:hover,
+header.smaller .secondary-menu > ul > li > a:hover,
+.main-menu.background > ul > li > a.showSearchBar:hover,
+.main-menu.background > ul > li > a.cart-nav-btn:hover,
+.main-menu.background > ul > li:hover > a.showSearchBar,
+.main-menu.background > ul > li:hover > a.cart-nav-btn,
+.searchbar.panel input,
+.tabs.minimal > ul.tabs-nav > li.active > a,
+/*article.blog-article-std > p.article-info > a:hover,*/
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus,
+.panel-container a:hover,
+.icon-map-pin,
+.bowline-main-color,
+.pagination > li > a, .pagination > li > span,
+.bl-pagination > li:first-child > a, .bl-pagination > li:last-child > a,
+.bl-pagination.minimal > li > a:hover > span,
+a.blog-list:hover .article-icon,
+article.blog-post > div.desc > a.goToArticle,
+article.blog-post > div.desc > h5.infobar > a,
+blockquote.with-icon::before,
+.extended-btn:hover > .icon-container.circular *{
+    
+    color: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+
+}
+
+
+/* BACKGROUND COLOR */
+::selection,
+.gototop-btn:hover,
+.loader-3:first-child div div div,
+.loader-4,
+.loader-5,
+.loader-6:before,
+span.label,
+.main-menu.background > ul > li:hover > a,
+.main-menu.background > ul > li > a:hover,
+.main-menu.border-bottom > ul > li > a:after,
+.progress-level,
+.tabs > ul.tabs-nav > li.active, .tabs > ul.tabs-nav > li.active > a,
+.mfp-modal-close,
+span.product-discount,
+.twentytwenty-horizontal .twentytwenty-handle:before,
+.twentytwenty-horizontal .twentytwenty-handle:after,
+.twentytwenty-vertical .twentytwenty-handle:before,
+.twentytwenty-vertical .twentytwenty-handle:after,
+.bowline-main-background,
+.irs-slider:after,
+aside.sidebar.grey a.fullwidth-btn,
+.blog-post-s2.quote-post > div.desc,
+.service-box.colored > div.icon-container > div,
+.pulse-btn{
+    
+    background-color: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+
+}
+
+
+/* BORDER COLOR */
+.main-menu.background .sub-menu,
+.loader-1,
+.loader-1:before,
+.loader-1:after,
+.loader-2{
+    border-top-color: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+.loader-2,
+.tabs.minimal > ul.tabs-nav > li.active,
+.aside-options > a.active{
+    border-bottom-color: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+.loader-3:first-child div,
+a.tag-sidebar:hover,
+.architecture-number-box,
+.searchbar.panel input,
+.twentytwenty-handle,
+.tabs.top-nav.rounded-nav > ul.tabs-nav > li.active,
+.tabs.top-nav.rounded-nav > ul.tabs-nav > li:hover,
+.extended-btn:hover > .icon-container.circular{
+    border-color: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+.twentytwenty-left-arrow{
+    border-right: 6px solid #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+.twentytwenty-right-arrow{
+    border-left: 6px solid #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+
+/* BUTTONS */
+.rounded-btn{
+    background-color: #EA8135; /*################# SET HERE YOUR COLOR #################*/
+}
+.border-btn{
+    border-color: #EA8135; /*################# SET HERE YOUR COLOR #################*/
+    color: #EA8135; /*################# SET HERE YOUR COLOR #################*/
+}
+.border-btn.full, .border-btn:hover{
+    background-color: #EA8135; /*################# SET HERE YOUR COLOR #################*/
+}
+
+/* RANGE SLIDER */
+.irs-bar, .irs-bar-edge, .irs-from, .irs-to, .irs-single{
+    background: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}
+
+/* ANIMATED ICONS */
+.animated-icon.bowline-main-color svg *{
+    stroke: #EA8135 !important; /*################# SET HERE YOUR COLOR #################*/
+}

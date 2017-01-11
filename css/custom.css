@@ -1,0 +1,138 @@
+/*------------------------------------------------------------------
+
+Theme:                   Bowline HTML5 Template
+Version:                 1.1
+Author:                  SinkLab
+Support:                 http://themeforest.net/user/SinkLab
+
+File Description:        CSS Custom Rules
+
+------------------------------------------------------------------*/
+
+.header-top{
+	width: 100%;
+	line-height: 38px;
+	height: 40px;	
+	background-color: #f9f9f9;
+}
+
+.header-hotline{
+	letter-spacing: 1px;
+}
+.header-hotline .col-md-9 span{
+	font-size: 14px;
+}
+.header-hotline .col-md-9, .header-hotline .col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.hotline-color, .btn-book{
+	color: #2ab1cf;
+
+}
+.btn-book{
+	text-align: center;
+	transition: 1s;
+	background-color: #f2f2f2;
+}
+.btn-book a{
+	font-size: 15px;
+	display: inline;
+	color: #2ab1cf;
+}
+.btn-book:hover{
+	background-color: #dadada;
+}
+.typed-title{
+	font-size: 100px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.top-100 .col-md-6:first-child{
+	padding-left: 0;
+}
+.top-100 .col-md-6:last-child{
+	padding-right: 0;
+}
+.top-100 .box-about{
+	padding:25px;
+	background-color: #fcfcfc;
+	border: 1px #ccc solid;
+}
+.top-100 .box-about p{
+	margin-bottom: 10px;
+}
+.icon-box-about{
+	float: left;
+	margin-right: 30px;
+}
+.icon-box-about img{
+	border: 1px #ccc solid;
+	padding:5px;
+	width: 40px;
+	height: 40px;
+	display: inline;
+}
+.box-about input{
+	border: 1px solid #ccc;
+	height: 40px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+.box-about textarea{
+	border: 1px solid #ccc;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+#send{
+	color: #fff;
+	background-color: #2196F3;
+	margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .top-100 .box-about{
+    	min-height: 508px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .header-top{
+        display: none;
+    }
+    .typed-title{
+        font-size: 50px !important;
+    }
+    .top-100 .col-md-6:first-child{
+        margin-bottom: 20px;
+        padding-left: 15px !important;
+    }
+}
